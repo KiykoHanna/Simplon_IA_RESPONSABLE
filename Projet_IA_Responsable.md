@@ -78,6 +78,28 @@ IA Responsable : approche de conception, de développement et d'exploitation des
 - Traçabilité : journaliser les accès et modifications via une table d’audit.
   
 - Sécurité par défaut : appliquer le chiffrement au repos et en transit, limiter les accès par rôles SQL, et activer des sauvegardes sécurisées.
+### 2.6 **Incidents récents illustrant les risques de l’IA**
+
+Pour mieux comprendre les enjeux concrets de l’IA responsable, voici quelques exemples récents d’incidents :
+
+- DeepSeek (2025) — fuite d’environ 1 million de chats et métadonnées suite à une mauvaise configuration du cloud.
+
+- IA générative en entreprise (2025) — usage massif comme canal principal de fuite de données sensibles.
+
+- Vulnérabilité XSS dans un chatbot d’entreprise (2025) — exécution de code possible, vol de sessions et compromission du système.
+
+- UK Welfare AI (2024) — discrimination statistiquement significative selon l’âge, le handicap et la nationalité dans le traitement des demandes d’aide sociale.
+
+- Étude santé (2025) — « data poisoning » altère des systèmes critiques sans détection pendant 6 à 12 mois.
+
+Analyse :
+Ces incidents illustrent que les risques liés à l’IA ne sont pas théoriques : ils peuvent affecter la sécurité des données, l’équité des décisions, et la robustesse des systèmes critiques. Ils renforcent l’importance de :
+
+- Mettre en place une sécurité renforcée et des contrôles réguliers.
+
+- Effectuer des audits et tests de robustesse avant et pendant le déploiement.
+
+- Garantir une gouvernance claire et la traçabilité des décisions automatisées.
 
 ## 3. **Cadres et référentiels**
 
